@@ -6,6 +6,7 @@
   "author": "Samuel Santana <samuel.ssa89@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/jest": "^25.1.3",
     "@types/node": "^13.7.4",
     "@typescript-eslint/eslint-plugin": "2",
     "eslint": "6",
@@ -16,7 +17,12 @@
     "eslint-plugin-standard": "4",
     "git-commit-msg-linter": "^2.4.2",
     "husky": "^4.2.3",
+    "jest": "^25.1.0",
     "lint-staged": "^10.0.7",
+    "ts-jest": "^25.2.1",
     "typescript": "^3.8.2"
+  },
+  "scripts": {
+    "test": "jest"
   }
 }
