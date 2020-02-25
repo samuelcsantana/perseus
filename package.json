@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:samuelcsantana/perseus.git",
   "author": "Samuel Santana <samuel.ssa89@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "git-commit-msg-linter": "^2.4.2"
+  }
 }
