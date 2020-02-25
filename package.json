@@ -6,6 +6,8 @@
   "author": "Samuel Santana <samuel.ssa89@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "git-commit-msg-linter": "^2.4.2"
+    "@types/node": "^13.7.4",
+    "git-commit-msg-linter": "^2.4.2",
+    "typescript": "^3.8.2"
   }
 }
