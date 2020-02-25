@@ -1,0 +1,8 @@
+{
+  "name": "perseus",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:samuelcsantana/perseus.git",
+  "author": "Samuel Santana <samuel.ssa89@gmail.com>",
+  "license": "MIT"
+}
