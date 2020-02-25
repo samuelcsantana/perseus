@@ -1,0 +1,6 @@
+{
+    "*.ts": [
+        "./node_modules/.bin/eslint 'src/**' --fix",
+        "yarn test:staged"
+    ]    
+}
