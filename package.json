@@ -27,7 +27,7 @@
     "test": "jest --passWithNoTests",
     "test:watch": "jest --passWithNoTests --watch",
     "test:staged": "jest --passWithNoTests",
-    "lint": "eslint packages --ext ts,tsx",
+    "lint": "eslint src --ext ts,tsx",
     "coveralls": "cat ./coverage/lcov.info | coveralls"
   }
 }
