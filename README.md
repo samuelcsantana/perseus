@@ -4,8 +4,6 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/samuelcsantana/perseus)
 # perseus
 
-This project will be use in my personal mobile application.
-
 - [x] Design Patterns
 - [x] Clean Architecture 
 - [x] SOLID  
