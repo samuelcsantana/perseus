@@ -2,9 +2,11 @@ name: ci
 
 on:
   push:
+    branches:
+      - develop
   pull_request:
-  release:
-    types: [published, created, edited]
+    branches:
+      - master
 jobs:
   build:
     runs-on: ubuntu-latest
