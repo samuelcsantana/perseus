@@ -8,6 +8,7 @@
   "devDependencies": {
     "@types/jest": "^25.1.3",
     "@types/node": "^13.7.4",
+    "@types/validator": "^12.0.1",
     "@typescript-eslint/eslint-plugin": "2",
     "coveralls": "^3.0.9",
     "eslint": "6",
@@ -32,5 +33,8 @@
     "test:ci": "yarn test --coverage",
     "lint": "eslint src --ext ts,tsx",
     "coveralls": "cat ./coverage/lcov.info | coveralls"
+  },
+  "dependencies": {
+    "validator": "^12.2.0"
   }
 }
