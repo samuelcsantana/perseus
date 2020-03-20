@@ -8,6 +8,7 @@
   "devDependencies": {
     "@types/jest": "^25.1.3",
     "@types/node": "^13.7.4",
+    "@types/validator": "^12.0.1",
     "@typescript-eslint/eslint-plugin": "2",
     "coveralls": "^3.0.9",
     "eslint": "6",
@@ -24,10 +25,16 @@
     "typescript": "^3.8.2"
   },
   "scripts": {
-    "test": "jest --passWithNoTests",
-    "test:watch": "jest --passWithNoTests --watch",
-    "test:staged": "jest --passWithNoTests",
+    "test": "jest --passWithNoTests --silent --noStackTrace --runInBand",
+    "test:verbose": "jest --passWithNoTests --runInBand",
+    "test:unit": "yarn test --watch -c jest-unit-config.js",
+    "test:integration": "yarn test --watch -c jest-integration-config.js",
+    "test:staged": "yarn test --findRelatedTests",
+    "test:ci": "yarn test --coverage",
     "lint": "eslint src --ext ts,tsx",
     "coveralls": "cat ./coverage/lcov.info | coveralls"
+  },
+  "dependencies": {
+    "validator": "^12.2.0"
   }
 }
