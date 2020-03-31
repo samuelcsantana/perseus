@@ -35,6 +35,7 @@
     "coveralls": "cat ./coverage/lcov.info | coveralls"
   },
   "dependencies": {
+    "bcrypt": "^4.0.1",
     "validator": "^12.2.0"
   }
 }
